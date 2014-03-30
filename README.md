@@ -5,12 +5,12 @@ gjsunit is a BDD-style testing framework for the gjs Javascript binding for Gnom
 
 ## How to use it
 Using gjsunit is very easy. You only need the gjsunit.js file which you can put anywhere into your application/extension directory. Let's assume you put it into `lib/gjsunit.js`.
-You can run the gjsunit from the command line by first cd-ing into your application/extension directory and then running `gjs lib/gjsunit.js`. gsjunit will assume a `test`-directory in your project directory and will scan the whole directory for any executable testsuites which it will then run. You can provide a different test-directory as a parameter if you wish: `gjs lib/gjsunit.js myTests`.
+You can run gjsunit from the command line by first cd-ing into your application/extension directory and then running `gjs lib/gjsunit.js`. gsjunit will assume a `test`-directory in your project directory and will scan the whole directory for any executable testsuites which it will then run. You can provide a different test-directory as a parameter if you wish: `gjs lib/gjsunit.js myTests`.
 Since you probably dont have any test suites yet, let's look into how to do this.
 
 ## Writing test suites
 
-In your test directories you can have as many test directories and test files as you wish. gjsunit will just run all of them.
+In your test directory you can have as many subdirectories and test files as you wish. gjsunit will just run all of them.
 A test suite could look like this:
 
 ```js
