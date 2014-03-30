@@ -13,7 +13,7 @@ Since you probably dont have any test suites yet, let's look into how to do this
 In your test directories you can have as many test directories and test files as you wish. gjsunit will just run all of them.
 A test suite could look like this:
 
-```
+```js
 // test/MyModuleTest.js
 
 const MyModule = imports.MyModule;
