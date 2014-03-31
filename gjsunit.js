@@ -1,3 +1,6 @@
+// This file is part of the gjsunit framework
+// Please visit https://github.com/philipphoffmann/gjsunit for more information
+
 imports.searchPath.push('.');
 imports.searchPath.push('/usr/share/gnome-js');
 

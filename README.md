@@ -51,3 +51,7 @@ I recommend looking at the test suite for examples.
 
 Happy testing!
 
+## Known problems
+
+Apparently it is impossible for gjs to import some things (For example imports.gi.St). I haven't found a solution to solve this yet, so until then you will only be able to test files which dont import any stuff gjs cant import. Extracting your code that doesnt rely on these imports into own modules circumvents this problem.
+
