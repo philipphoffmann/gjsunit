@@ -3,6 +3,7 @@
 
 imports.searchPath.push('.');
 imports.searchPath.push('/usr/share/gnome-js');
+imports.searchPath.push('/usr/share/gnome-shell/js');
 
 var countTestsOverall = 0;
 var countTestsFailed = 0;
