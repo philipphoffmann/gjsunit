@@ -30,6 +30,7 @@ window.expect = function(actualValue) {
 		function triggerResult(success, msg) {
 			if( (success && !positive) ||
 				(!success && positive) ) {
+				++countTestsFailed;
 				throw new Error(msg);
 			}
 		}
